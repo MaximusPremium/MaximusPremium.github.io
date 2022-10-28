@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #titolo {
+                text-align: center;
+                position: sticky;
+                top: 0px;
+                background-color: blue;
+                height: 100px;
+                font-size: 90px;
+                color: yellow;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                border-bottom: solid yellow 10px;
+                border-top: solid yellow 10px;
+                z-index: 3;
+            }
+            body {
+                
+                border: solid 10px yellow;
+                border-top: none;
+                margin: 0px;
+                background-color: blue;
+            }
+            #titlo2 {
+                color: yellow;
+                font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 50px;
+                margin: 20px;
+                
+                text-align: center;
+            }
+            #campo {
+                background-color: orange;
+                height: 80vw;
+                width: 40vw;
+                position: relative;
+                left: 28vw;
+                
+            }
+            #m6{
+                border-bottom: solid red 1vw;
+                height: 33%;
+                width: 100%;
+               
+            }
+            #m3{
+                border-bottom: solid red 1vw;
+                height: 16%;
+                width: 100%;
+                
+            }
+            #m3c{
+                border-bottom: solid blue 2vw;
+                height: 16%;
+                width: 100%;
+
+            }
+            #zone {
+                border:dashed white 4px ;
+                height:100%;
+                width: 30%;
+                
+            }
+            #camp{
+                height: 100%;
+                width: 100%;
+                border: green solid 1vw;
+
+
+
+            }
+
+
+
+            #legenda {
+                
+                color:white;
+            }
+            img {
+                height: 100px;
+
+            }
+            nav {
+                background-color: black;
+                color: white;
+                
+                width: 100%;
+                height: 60px;
+                
+                
+            
+            }
+
+            a {
+                text-decoration:none;
+                color: white;
+            }
+            .navelement {
+                border: solid white 5px;
+                border-radius: 20px;
+                display:inline;
+                
+                font-size: 20px;
+            
+                padding: 10px;
+                margin: 30px;
+                
+            
+                
+                
+            }
+            .navelement:hover {
+                border: yellow solid 10px;
+                background-color: blue;
+                color: yellow;
+            }
+            .mainimg {
+                width: 60%;
+                height: auto;
+            }
+            hr {
+                border: none;
+                height: 20px;
+            }
+            .paragrafo {
+                margin: 20px;
+                background-color: lightgray;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                font-size: 24px;
+                border: solid 5px darkgrey;
+            }
+            section {
+                background-color: black;
+                height: 100%;
+            }
+
+                
+            
+            td,tr {
+                border-collapse: collapse;
+                text-align: center;
+                color: white;
+                font-size: 7vw;
+            }
+            .quadage {
+                height: 10px;
+                width: 20px;
+                display: inline;
+               
+            }
+
+
+
+        </style>
+    </head>
+    <body>
+        <div id = 'titolo'>
+            <div style="position: absolute;top:0;left:0;"><img src="palla.png"></div>
+            <i><b>VOLLEYBALL</b></i>
+            <div style="position: absolute;top:0;right:0;"><img src="palla.png"></div>
+        </div>
+        <nav>
+            <center>
+                <div style="height:100%;padding: 20px;">
+                    <a href="regole.html"><div class="navelement">REGOLE</div></a>
+                    <a href="fondamentali.html"><div class="navelement">FONDAMENTALI</div></a>
+                    <a href="ruoli.html"><div class="navelement">RUOLI</div></a>
+                    
+                </div>
+                    
+            </center>
+            
+           
+        </nav>
+        <div id="titlo2"><i>PALLAVOLO</i></div>
+
+        <center><img src="cmp.jpg" class="mainimg"></center>
+        <div class="paragrafo">
+            La pallavolo è uno sport di squadra, che si svolge tra due squadre con in campo sei giocatori e altri sei in panchina per ognuna delle squadre. Lo scopo del gioco è realizzare punti, facendo in modo che la palla tocchi terra nel campo avversario (fase di attacco), e impedire che la squadra avversaria possa fare altrettanto (fase di difesa).
+        </div>
+        <hr>
+        <section id="sezc">
+            <hr>
+            <div id="titlo2"><i>CAMPO</i></div>
+            <hr>
+            <div id="campo">
+                <table id = 'camp'>
+                    <tr><td id="m6">
+                        <table height="100%" width="100%"><tr><td id="zone">1</td><td id="zone">6</td><td id="zone">5</td></tr></table>
+                    </td></tr>
+                    <tr><td id="m3c">
+                        <table height="100%" width="100%"><tr><td id="zone">2</td><td id="zone">3</td><td id="zone">4</td></tr></table>
+                    </td></tr>
+                    <tr><td id="m3">
+                        <table height="100%" width="100%"><tr><td id="zone">4</td><td id="zone">3</td><td id="zone">2</td></tr></table>
+                    </td></tr>
+                    <tr><td id="m7">
+                        <table height="100%" width="100%"><tr><td id="zone">5</td><td id="zone">6</td><td id="zone">1</td></tr></table>
+                    </td></tr>
+                </table>
+            </div>
+            <hr>
+            
+            <div style="width:40vw; position:relative;left: 36%;">
+                <div id="legenda">
+                    <div style="background-color:green;" class="quadage">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>&nbsp;= linee di bordo campo<br><br>
+                    <div style="background-color:red;" class="quadage">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>&nbsp;= linee dei 3 metri<br><br>
+                    <div style="background-color:blue;" class="quadage">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>&nbsp;= rete <br><br>
+                    <div style="background-color:white;" class="quadage">&nbsp;</div>
+                    <div style="background-color:white;" class="quadage">&nbsp;</div>
+
+                    <div style="background-color:white;" class="quadage">&nbsp;</div>
+                    <div style="background-color:white;" class="quadage">&nbsp;</div>
+
+                    <div style="background-color:white;" class="quadage">&nbsp;</div>
+                    <div style="background-color:white;" class="quadage">&nbsp;</div>
+
+                    &nbsp;= zone del campo
+
+                </div>
+            </div>
+            
+        </section>
+        
+
+
+
+    </body>
+</html>
